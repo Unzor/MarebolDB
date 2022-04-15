@@ -1,0 +1,18 @@
+{
+  "name": "marebol-db",
+  "version": "1.0.0", 
+  "repository": "https://github.com/Unzor/marebol-db",
+  "description": "An Express wrapper that lets you connect to the Replit database through the browser using WebSocket. (Only works on REPLs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["database", "replit", "express", "ws", "websocket"],
+  "author": "diegab",
+  "license": "ISC",
+  "dependencies": {
+    "@replit/database": "^2.0.1",
+    "express": "^4.17.3",
+    "express-ws": "^5.0.2"
+  }
+}
